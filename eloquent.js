@@ -25,7 +25,7 @@ function isEven (num) {
 function countBs (str) {
 	var count = 0;
 	for (var i=0; i<str.length; i++ ) {
-		if(str.charAt(i) === "B"){
+		if (str.charAt(i) === "B"){
 			count++;
 		}
 	}
@@ -37,7 +37,7 @@ function countBs (str) {
 function countChar (str , letter) {
 	var count = 0;
 	for (var i=0; i<str.length; i++ ) {
-		if(str.charAt(i) === letter){
+		if (str.charAt(i) === letter) {
 			count++;
 		}
 	}
